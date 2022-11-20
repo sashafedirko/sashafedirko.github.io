@@ -1,0 +1,30 @@
+.bold {
+    font-weight: 700;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.show-mobile {
+    display: block;
+
+
+}
+.show-desk {
+    display: none;
+    
+}
+@media screen and (min-width: 993px){
+    .show-mobile {
+        display: none;
+
+
+    }
+    .show-desk {
+        display: block;
+        
+    }
+}

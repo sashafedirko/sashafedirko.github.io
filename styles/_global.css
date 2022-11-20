@@ -1,0 +1,70 @@
+.bold {
+	font-weight: 700;
+}
+
+.flex {
+	display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.show-m {
+	display: block;
+}
+
+.show-d {
+	display: none;
+}
+
+.section-title {
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
+.section-text {
+	max-width: 485px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+
+.section-text p:not(:last-child) {
+	padding-bottom: 25px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+}
+
+.row .item {
+	flex-basis: 100%;
+	max-width: 170px;
+}
+
+@media screen and (min-width: 870px) {
+	.row {
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.show-m {
+		display: none;
+	}
+
+	.show-d {
+		display: block;
+	}
+}
+

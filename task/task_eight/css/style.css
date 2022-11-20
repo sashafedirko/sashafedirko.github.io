@@ -1,0 +1,465 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    margin:0 auto;
+    width: 100%;
+    border:1px solid black;
+}
+
+
+#topbar {
+    height: 400px;
+    background-image:url(../img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    
+    
+    
+} 
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding: 10px 0 10px 220px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    
+}
+    
+h1 {
+    color: white;
+    font-size:400%;
+    letter-spacing: 8px;
+    word-spacing: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container_1 .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom right,#FB376A, #F97A9B);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+
+#tour .container {
+    background-color: #1C1818;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    row-gap: 15px;
+    height: 300px;
+}
+.container h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tour-block {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    
+    
+}
+.tour-card {
+    padding-top: 50px;
+    padding-left: 15px;
+    position: relative;
+    color: white;
+    font-size: large;
+    
+    height: 230px;
+    width: 210px;
+    
+}
+
+.tour-block .button {
+    background:linear-gradient(to bottom right,#FB376A, #F97A9B);
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left:30px;
+    bottom: 65px;
+
+}
+
+.madrid {
+    background-image:url(../img/tour/madrid.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px 230px;    
+}
+.turin {
+    background-image:url(../img/tour/turin.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px 230px;     
+}
+.hamburg {
+    background-image:url(../img/tour/hamburg.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px 230px;     
+}
+.krakow {
+    background-image:url(../img/tour/krakow.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px 230px;   
+     
+}
+
+
+
+
+   
+#gallery .container {
+    height: 750px; 
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    row-gap: 15px; 
+    background-color: #1C1818;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    color: white;   
+}
+.gallery-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#subscribe .container{
+    height: 250px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: white;
+    background-image: url(../img/bg-02.jpg);
+    background-repeat: no-repeat;
+    background-position:0;
+
+}
+.container .pitch {
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 80px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    background-color: #1C1818;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social {
+    padding-bottom: 10px;
+    filter:brightness(0) invert(1);
+}
+
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 420px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        padding: 10px 0 10px 58px;
+        height: 40px;
+        text-transform: uppercase;
+        background-color:rgba(0, 0, 0, 0.5);
+        color: white;
+        text-decoration: none;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+    #topbar {
+        height: 200px;
+        background-image:url(../img/bg-01.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+        
+        
+        
+    }
+    
+    .container_1 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        
+    }
+    h1 {
+        color: white;
+        font-size:150%;
+        word-spacing: 0%;
+        letter-spacing: 2px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    .container_1 .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(to bottom right,#FB376A, #F97A9B);
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: small;
+    }
+
+
+    .tour-block {  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        column-gap: 30px;
+        overflow: auto;
+        
+        
+    }
+
+ 
+
+
+    #tour .container {
+        
+        background-color: #1C1818;
+        background-image: url(../img/bg.png);
+        background-repeat: repeat;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+        row-gap: 15px;
+        height: 540px;
+    }
+    .container h2 {
+        
+        text-transform: uppercase;
+        font-size: medium;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tour-card {
+        
+        
+        border: 1px solid white;
+        padding-top: 10px;
+        padding-left: 15px;
+        position: relative;
+        color: white;
+        font-size: large;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+    .tour-block .button {
+        
+        background:linear-gradient(to bottom right,#FB376A, #F97A9B);
+        height: 20px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        align-items: center;
+        color: white;
+        font-size: small;
+        text-decoration: none;
+        position: absolute;
+        left:80px;
+        bottom: 5px;
+    }
+    .madrid {
+        background-image:url(../img/tour/madrid.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 200px;    
+    }
+    .turin {
+        background-image:url(../img/tour/turin.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 200px;     
+    }
+    .hamburg {
+        background-image:url(../img/tour/hamburg.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 200px;     
+    }
+    .krakow {
+        background-image:url(../img/tour/krakow.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 200px;  
+         
+    }
+
+
+    #gallery .container {
+        height: 340px; 
+        display: flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        row-gap: 15px; 
+        background-color: #1C1818;
+        background-image: url(../img/bg.png);
+        background-repeat: repeat;
+        color: white;   
+    }
+    .gallery-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 15px;
+    
+    
+    }
+    img {
+        display: flex;
+        width: 110px;
+        height: 110px;
+    }
+
+    #subscribe .container{
+        height: 120px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        color: white;
+        background-image: url(../img/bg-02.jpg);
+        background-repeat: no-repeat;
+        background-position:0;
+        
+    
+    }
+    .container .pitch {
+        line-height: 30px;
+    }
+
+    footer {
+        height: 80px;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        background-color: #1C1818;
+        background-image: url(../img/bg.png);
+        background-repeat: repeat;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .social {
+        padding-bottom: 10px;
+        filter:brightness(0) invert(1);
+    }
+
+
+
+ 
+    
+
+}
+    
+
