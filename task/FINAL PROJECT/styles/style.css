@@ -27,6 +27,9 @@ header {
     align-items: center;
     padding: 28px 0;
     
+   
+    
+    
 }
 .header-menu{
     display: none;
@@ -144,12 +147,55 @@ header {
     padding: 24px 0;
 }
 
+.search-form {
+    width: 300px;
+    position: relative;
+    
+}
+.search {
+    border:none;
+    float: left;
+    width: 100%;
+    border-radius: 100px;
+    padding: 32px;
+    height: 72px;
+}
+.button-search {
+    border:none;
+    background: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);
+    border-radius: 100px;
+    position: absolute;
+    right: 0;
+    width: 72px;
+    height: 72px;
+}
+.button-search:hover {
+    background: linear-gradient(180deg, #FFB0BA 0%, #F9475D 100%);;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-wrap img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-    margin-top: -70px;
+    width: 350px;
+    height: 270px;
+    margin-bottom: 50px;
+    
 }
 form {
     display: flex;
@@ -213,6 +259,8 @@ span{
     display: flex;
     column-gap: 24px;
     overflow: scroll;
+    padding-left: 10px;
+    margin-bottom: 50px;
     
 }
 
@@ -227,8 +275,7 @@ span{
     color: black;
     box-shadow:1px 1px 10px gray,
     inset 0px -1px 1px gray;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 50px;  
     position: relative;
 }
 
@@ -344,6 +391,7 @@ figcaption {
     box-shadow:1px 1px 10px gray,
     inset 0px -1px 1px gray;
     margin-top: 50px;
+    margin-bottom: 10px;
     position: relative;
 
 }
@@ -362,6 +410,8 @@ figcaption {
     display: flex;
     column-gap: 24px;
     overflow: scroll;
+    padding-left: 10px;
+    margin-bottom: 50px;
     
 }
 
@@ -377,6 +427,8 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
+    margin-bottom: 50px;
+    
 
 }
 
@@ -389,6 +441,7 @@ figcaption {
     width:400px;
     height: 286px;
     margin: 0 auto;
+    
     
     
 
@@ -409,6 +462,30 @@ figcaption {
     align-items: center;
     column-gap: 10px;
 }
+
+.join {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;   
+    padding-bottom: 50px;
+    text-align: center;
+}
+.join p:nth-of-type(1) {
+    font-size: 24px;
+
+}
+.join p:nth-of-type(2) {
+    font-size: 16px;
+    padding: 24px 0;
+
+}
+.join img {
+    width: 320px;
+    height: 320px;
+}
+
+
+
 
 
 
@@ -482,6 +559,7 @@ figcaption {
 
     .content img {
         margin-left: 0px;
+        
     }
 
 
@@ -492,9 +570,18 @@ figcaption {
         display: none;
     }
     .header-menu nav a{
+        padding: 0 10px;
+        margin: 0 10px;
         color:white;
         text-decoration: none;
-        padding-left: 48px;
+        
+    }
+    .header-menu nav a:hover {
+        border-width: 0 0 1px 0;
+        border-color: #FFA337;
+        border-style: solid;
+        transition: .5s ease;
+        
     }
     
     
@@ -511,6 +598,11 @@ figcaption {
         padding:0 8px;
     
     }
+    .logIn:hover {
+        cursor: pointer;
+        color: #FFA337;
+
+    }
     .signUp {
         display: flex;
         align-items: center;
@@ -524,8 +616,23 @@ figcaption {
         margin-left: 24px;
     
     }
+    .signUp:hover {
+        background: linear-gradient(180deg, #FFB0BA 0%, #F9475D 100%);;
+        cursor:pointer;
+
+    }
+
+
+
+
+
     .burger-icon {
         display: none;
+    }
+    .search-form {
+        width: 648px;
+        position: relative;
+        
     }
 
 
@@ -535,13 +642,16 @@ figcaption {
         flex-direction: row;
         align-items: center;
         text-align: left;
+        padding-top: 100px;
+        padding-bottom: 248px;
+        
         
         
         
     }
     .title {
         display: block;
-        margin-bottom: 140px;
+        padding-bottom: 100px;
         
         
         
@@ -568,10 +678,8 @@ figcaption {
         
     }
     .main-wrap img {
-        width: 638px;
-        height: 638px;
-        margin-bottom: 248px;
-        
+        width: auto;
+        height: 500px;
     }
 
     form {
@@ -631,10 +739,13 @@ figcaption {
         display: flex;
         column-gap: 24px;
         overflow: hidden;
+        padding-left: 0px;
+        margin-bottom: 40px;
+        
         
     }
     .course-block {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
     .scroll {
         display: block;
@@ -671,6 +782,9 @@ figcaption {
         display: flex;
         column-gap: 24px;
         overflow: hidden;
+        padding-left: 0px;
+       
+        
         
     }
     .instructor h1:nth-child(1){
@@ -682,6 +796,9 @@ figcaption {
         font-weight: 400;
         font-size: 20px  ;
         text-align: left;
+    }
+    .instructor-block {
+
     }
    
 
@@ -699,11 +816,27 @@ figcaption {
     
     
     }
+    .join {
+        margin-top: 50px;
+        display: flex;   
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
 
 
 
   
-   
+   .join-container {
+    display: flex;
+    flex-direction: row-reverse;
+   }
+
+   .join img {
+    width: 612px;
+    height: 520px;
+}
+  
 
 
 }
