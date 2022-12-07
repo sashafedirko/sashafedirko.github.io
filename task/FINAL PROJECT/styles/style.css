@@ -69,6 +69,7 @@ header {
     
     
 }
+
 .log-button {
     display: none;
 }
@@ -191,6 +192,7 @@ header {
 
 
 
+
 .main-wrap img {
     width: 350px;
     height: 270px;
@@ -261,6 +263,7 @@ span{
     overflow: scroll;
     padding-left: 10px;
     margin-bottom: 50px;
+    
     
 }
 
@@ -413,6 +416,7 @@ figcaption {
     padding-left: 10px;
     margin-bottom: 50px;
     
+    
 }
 
 .feedback {
@@ -464,7 +468,7 @@ figcaption {
 }
 
 .join {
-    margin-top: 50px;
+    
     display: flex;
     flex-direction: column;   
     padding-bottom: 50px;
@@ -480,7 +484,7 @@ figcaption {
 
 }
 .join img {
-    width: 320px;
+    width: 380px;
     height: 320px;
 }
 
@@ -488,38 +492,83 @@ figcaption {
 
 
 
+.signUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    background: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);
+    width: 167px;
+    height: 48px;
+    border-radius: 100px;
+    margin: 0 auto;
+
+}
+.signUp:hover {
+    background: linear-gradient(180deg, #FFB0BA 0%, #F9475D 100%);;
+    cursor:pointer;
+
+}
+
+
+.footer {
+    background-color: #21212F;
+    color: #CFD3D6;
+}
+.footer-block img {
+    display:none;
+}
 
 
 
+.footer-block {
+    display: flex;
+   flex-direction: column;
+    text-align: center;
 
+    
+}
+.social {
+    display:flex;
+    column-gap: 5px;
+    margin-top: 5px;
+}
 
+/*4 16*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-category h1 {
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    
+}
+.footer-block nav a {
+    margin-left: 5px;
+    text-decoration: none;
+    color:#FFA337;
+    
+}
+.footer-block input {
+    width: 300px;
+    height: 57px;
+    padding: 16px 16px 17px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+.footer-block button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    background: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);
+    width: 167px;
+    height: 48px;
+    border-radius: 100px;
+    margin:20px auto;
+    
+}
 
 
 
@@ -596,6 +645,7 @@ figcaption {
         border: none;
         color: white;
         padding:0 8px;
+        margin-right: 24px;
     
     }
     .logIn:hover {
@@ -613,7 +663,7 @@ figcaption {
         width: 167px;
         height: 48px;
         border-radius: 100px;
-        margin-left: 24px;
+        margin-left: 0;
     
     }
     .signUp:hover {
@@ -742,6 +792,8 @@ figcaption {
         padding-left: 0px;
         margin-bottom: 40px;
         
+
+        
         
     }
     .course-block {
@@ -797,9 +849,6 @@ figcaption {
         font-size: 20px  ;
         text-align: left;
     }
-    .instructor-block {
-
-    }
    
 
 
@@ -830,12 +879,86 @@ figcaption {
    .join-container {
     display: flex;
     flex-direction: row-reverse;
+    column-gap: 50px;
    }
 
    .join img {
     width: 612px;
     height: 520px;
-}
+    margin-bottom: 95px;
+       
+    }
+
+    .footer {
+        background-color: #21212F;
+    }
+
+    .footer-category {
+        display: flex;
+        column-gap: 90px;
+        color: #CFD3D6;
+        line-height: 24px;
+        padding-top: 100px;
+        
+    }
+    .footer-block {
+        display: block;
+        width: 312px;
+        text-align: left;
+
+    }
+    .footer-block img {
+        display: block;
+        
+        
+        
+    }
+    .footer-block nav a {
+        text-decoration: none;
+        display: block;
+        color:#CFD3D6;
+        margin-bottom: 15px;
+    }
+    .footer-category h1 {
+        color: white;
+        margin-bottom: 31px;
+        
+    }
+    .footer-category p {
+        
+        margin-bottom: 15px;
+        
+    }
+    .social {
+        display:flex;
+        column-gap: 5px;
+        margin-top: 5px;
+    }
+    .footer-block input {
+        width: 100%;
+        height: 57px;
+        padding: 16px 16px 17px;
+        border-radius: 8px;
+    }
+    .footer-block button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: none;
+        background: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);
+        width: 167px;
+        height: 48px;
+        border-radius: 100px;
+        margin-top: 34px;
+        margin-left: 0;
+    }
+
+    .footer-block button:hover {
+        background: linear-gradient(180deg, #FFB0BA 0%, #F9475D 100%);;
+        cursor:pointer;
+    
+    }
   
 
 
