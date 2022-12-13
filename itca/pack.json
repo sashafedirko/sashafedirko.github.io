@@ -1,0 +1,42 @@
+{
+    "titleName" : "ОБОВ'ЯЗКОВО ДОДАЙТЕ СВОЄ ЗАМОВЛЕННЯ",
+    "category" : [
+        {
+        "stickerNovelty" : "НОВИНКА",
+        "chapter" : "МАТЕМАТИКА",
+        "image" :"images/math.png",
+        "name" : "КОТОСОВИ",
+        "price" : "",
+        "buttonInert" : "НЕЗАБАРОМ У ПРОДАЖІ"
+        },
+        {
+        "chapter" : "ПОДАРУНОК",
+        "image" :"images/q1.png",
+        "name" : "НАБІР РОЗУМНИКА",
+        "price" : "210 ГРН",
+        "salePrice" : "190 грн",
+        "toBuy" : "У КОРЗИНУ"
+        },
+        {
+        "stickerHitSales" : "ХІТ",
+        "chapter" : "УСНИЙ РАХУНОК",
+        "image" :"images/turbo.png",
+        "name" : "ТУРБОРАХУНОК",
+        "price" : "320 грн",
+        "salePrice" : "",
+        "toBuy" : "У КОРЗИНУ"   
+        },
+        {
+        "stickerHitSales" : "ХІТ",
+        "chapter" : "БУКВИ ТА ЧИТАННЯ",
+        "image" :"images/zb.png",
+        "name" : "ТВАРИНОБУКВИ",
+        "price" : "450 грн",
+        "salePrice" : "",
+        "toBuy" : "У КОРЗИНУ"  
+        }
+
+
+    ]
+
+}
