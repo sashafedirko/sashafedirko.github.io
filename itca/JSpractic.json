@@ -1,0 +1,26 @@
+{
+    "categorys": [
+        {
+            "images":"images/Camera.png",
+            "title":"Camera",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Database.png",
+            "title":"Database",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Briefcase.png",
+            "title":"Briefcase",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Detective.png",
+            "title":"Detective",
+            "logo":"images/Frame 43.png"
+        }
+
+    ]
+        
+}
