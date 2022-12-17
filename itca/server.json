@@ -1,41 +1,32 @@
+
 {
-"courses": [
-    {
-        "direction": "HTML",
-        "image":"images/Saly-1.png",
-        "title": "Various versions have evolve...",
-        "vote":5,
-        "price": 500
-    },
-    {
-        "direction": "Design",
-        "image":"images/Sample 46.png",
-        "title": "Various versions have evolve...",
-        "vote":5,
-        "price": 500
-    },
-    {
-        "direction": "Business",
-        "image":"images/Sample 26.png",
-        "title": "Various versions have evolve...",
-        "vote":5,
-        "price": 500
-    },
-    {
-        "direction": "Business",
-        "image":"images/Sample 12.png",
-        "title": "Various versions have evolve...",
-        "vote":4,
-        "price": 500
-    },
-    {
-        "direction": "Design",
-        "image":"images/im12.png",
-        "title": "Various versions have evolve...",
-        "vote":2,
-        "price": 400
-    }
+    "categorys": [
+        {
+            "images":"images/Camera.png",
+            "title":"Camera",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Database.png",
+            "title":"Database",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Briefcase.png",
+            "title":"Briefcase",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Detective.png",
+            "title":"Detective",
+            "logo":"images/Frame 43.png"
+        },
+        {
+            "images":"images/Detective.png",
+            "title":"Sport",
+            "logo":"images/Frame 43.png"
+        }
 
-
-  ]
+    ]
+        
 }
