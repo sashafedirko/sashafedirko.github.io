@@ -32,6 +32,17 @@
             "logo":"images/icons/Frame 43.png"
         }
 
+    ],
+    "courses": [
+        {
+            "images":"images/Sample 26.png",
+            "title":"Various versions have evolve...",
+            "vote":"images/icons/star_notactive.png",
+            "titleComment":"(20)",
+            "price":"500$",
+            "direction":"Design"
+
+        }
     ]
         
 }
