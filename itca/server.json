@@ -3,32 +3,32 @@
     "categorys": [
         {
             "images":"images/icons/Camera.png",
-            "title":"Camera",
+            "title":"Photography",
             "logo":"images/icons/Frame 43.png"
         },
         {
             "images":"images/icons/Database.png",
-            "title":"Database",
+            "title":"Data Science",
             "logo":"images/icons/Frame 43.png"
         },
         {
             "images":"images/icons/Briefcase.png",
-            "title":"Briefcase",
+            "title":"Business",
             "logo":"images/icons/Frame 43.png"
         },
         {
             "images":"images/icons/Detective.png",
-            "title":"Detective",
+            "title":"Teaching",
             "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/icons/Detective.png",
-            "title":"Sport",
+            "images":"images/icons/FileHtml.png",
+            "title":"Development",
             "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/icons/Detective.png",
-            "title":"sdsd",
+            "images":"images/icons/Lightbulb.png",
+            "title":"Personal Develop",
             "logo":"images/icons/Frame 43.png"
         }
 
