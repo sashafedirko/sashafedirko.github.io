@@ -2,34 +2,34 @@
 {
     "categorys": [
         {
-            "images":"images/Camera.png",
+            "images":"images/icons/Camera.png",
             "title":"Camera",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/Database.png",
+            "images":"images/icons/Database.png",
             "title":"Database",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/Briefcase.png",
+            "images":"images/icons/Briefcase.png",
             "title":"Briefcase",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/Detective.png",
+            "images":"images/icons/Detective.png",
             "title":"Detective",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/Detective.png",
+            "images":"images/icons/Detective.png",
             "title":"Sport",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         },
         {
-            "images":"images/Detective.png",
+            "images":"images/icons/Detective.png",
             "title":"sdsd",
-            "logo":"images/Frame 43.png"
+            "logo":"images/icons/Frame 43.png"
         }
 
     ]
