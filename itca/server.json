@@ -37,7 +37,7 @@
         {
             "images":"images/Saly-1.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "vote":"<i class="fa-regular fa-star item" data-item-value="5"></i>",
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
