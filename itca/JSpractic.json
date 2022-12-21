@@ -4,26 +4,31 @@
             "images":"images/Camera.png",
             "title":"Camera",
             "logo":"images/Frame 43.png"
+            "num":3
         },
         {
             "images":"images/Database.png",
             "title":"Database",
             "logo":"images/Frame 43.png"
+            "num":3
         },
         {
             "images":"images/Briefcase.png",
             "title":"Briefcase",
             "logo":"images/Frame 43.png"
+            "num":2
         },
         {
             "images":"images/Detective.png",
             "title":"Detective",
             "logo":"images/Frame 43.png"
+            "num":3
         },
         {
             "images":"images/Detective.png",
             "title":"Sport",
             "logo":"images/Frame 43.png"
+            "num":4
         }
 
     ]
