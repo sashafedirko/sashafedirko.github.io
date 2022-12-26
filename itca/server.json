@@ -37,13 +37,7 @@
         {
             "images":"images/Saly-1.png",
             "title":"Various versions have evolve...",
-            "vote":[
-                {"images/icons/star_notactive.png"},
-                {"images/icons/star_notactive.png"},
-                {"images/icons/star_notactive.png"},
-                {"images/icons/star_notactive.png"},
-                {"images/icons/star_notactive.png"}
-                ],
+            "vote":"images/icons/star_notactive.png",
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -61,7 +55,7 @@
         {
             "images":"images/Sample 26.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/Star_active.png",
+            "vote":"images/icons/star_notactive.png",
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
