@@ -37,7 +37,7 @@
         {
             "images":"images/Saly-1.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -46,7 +46,7 @@
         {
             "images":"images/im12.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -55,7 +55,7 @@
         {
             "images":"images/Sample 26.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -64,7 +64,7 @@
         {
             "images":"images/Sample 46.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -73,7 +73,7 @@
         {
             "images":"images/Sample 12.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -83,7 +83,7 @@
         {
             "images":"images/o12.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
@@ -92,7 +92,7 @@
         {
             "images":"images/o12.png",
             "title":"Various versions have evolve...",
-            "vote":"images/icons/star_notactive.png",
+            "raiting":[true, true, true, true, true],
             "titleComment":"(20)",
             "price":"500$",
             "cLogo":"images/icons/Frame 43.png",
