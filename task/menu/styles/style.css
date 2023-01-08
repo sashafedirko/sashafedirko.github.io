@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-block{
+    background-image:url(./../images/hero\ image.png);
+    display: block;
+    color: white;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 268px;
+    color: white;
+    padding-top:50px;
+    padding-left: 165px;
+}
+.menu img:nth-of-type(2){
+    display: none;
+}
+.menu i{
+    display: none;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+.nav {
+    display: flex;
+    column-gap: 25px;
+    text-transform: uppercase;
+}.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #FF7400;
+    transition: .2s all ease;
+    transform: scale(1.2);
+    backdrop-filter: blur(10px);
+    
+
+    
+}
+.num {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.num a{
+    color: white;
+    text-decoration: none;
+}
+.num a:hover{
+    color: #FF7400;
+    transition: .2s all ease;
+    transform: scale(1.2);
+    backdrop-filter: blur(10px)
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color:crimson;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 566px;
+    text-align: center;
+    padding-left: 175px;
+    padding-top: 204px;
+    padding-bottom: 231px;
+
+}
+.title h1{
+    color: #D67E35;
+    font-size: 50px;
+}
+.title h1 span{
+    font-size: 80px;
+}
+.title p{
+    font-size: 18px;
+}
+.title button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 47px;
+    background-color: D67E35;
+    border: none;
+    color: white;
+    margin-top: 21px;
+}
+.history {
+    display: flex;
+    column-gap: 125px;
+    padding: 372px 165px 122px;
+    position: relative;
+}
+.short-history{
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.short-history h1{
+    font-size: 54px;
+}
+.short-history h1 span{
+    color: #D67E35;
+}
+.short-history p{
+    color:#656363;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.snacks-block{
+    margin-top: 39px;
+    display: flex;
+    column-gap: 41px;
+    text-align: center;
+}
+.snacks p:nth-child(1){
+    color:#BC9060;
+    font-size: 40px;
+
+}
+.history-cards {
+    display: flex;
+    column-gap: 31px;
+    position: absolute;
+    top:0;
+    transform: translate(0, -26%)
+}
+.history-card{
+    width: 349px;
+    height: 328px;
+    text-align: center;
+    padding-top: 35px;
+    box-shadow: 0 0 30px 5px rgba(104, 98, 98, 0.945);
+    background-color: white;
+    
+}
+.history-card:hover{
+    transform: scale(1.2);
+    transition: .5s all ease;
+    
+}
+.history-card h1 span{
+    color: #BC9060;
+}
+.order-block{
+    background-image: url(/images/bg.png);
+    color: white;
+    padding: 80px 165px 104px;
+    display: flex;
+    align-items: center;
+    /*column-gap: 331px;*/
+}
+.order-title h1{
+    color: #D67E34;
+    font-size: 52px;
+}
+.order-title p{
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.gallery-block h1{
+    text-align: center;
+    font-size: 54px; 
+    padding: 101px 0 59px;  
+}
+.gallery-block h1 span{
+    color:#BC9060;
+}
+/*swiper************************/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .chefs{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    padding-bottom: 100px;
+  }
+  .chefs img{
+    width: 300px;
+    height: 200px;
+  } 
+
+
+
+@media (max-width:833px){
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 0;
+        color: white;
+        padding:26px 14px 0;
+    }
+    .menu img:nth-of-type(1){
+        display: block;
+        width: 33;
+        height: 21px;
+    }
+    .menu img:nth-of-type(2){
+        display: block;
+    }
+    .menu i{
+        display: none;
+        color: #FF7400;
+    }
+    .nav-list{
+        display: none;
+        flex-direction: column;
+        row-gap: 20px;
+        background-color:#FF7400;
+        color: black;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top:70px;
+        left: 0;
+    }
+    .nav-list button{
+        display: none;
+    }
+    .nav a{
+        color: black;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-size: large;
+        line-height: 40px;
+        font-weight: bold;
+        
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 120px 14px 304px;
+    
+    }
+    .history {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 125px;
+        padding: 702px 0 122px;
+        position: relative;
+        
+    }
+    .history-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 14px;
+        position: absolute;
+        transform: translate(0, -26%);
+        margin: 0 auto;
+        
+    }
+    .history-card{
+        width: 290px;
+        height: 276px;
+        text-align: center;
+        padding-top: 35px;
+        box-shadow: 0 0 30px 5px rgba(104, 98, 98, 0.945);
+        background-color: white;
+        
+    }
+    .history img:nth-child(2){
+        width: 290px;
+        height: 257px;
+        margin: 46px auto 0;
+    }
+    .order-block{
+        background-image: url(/images/bg.png);
+        background-size:cover;
+        color: white;
+        padding: 80px 165px 104px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 41px;
+        text-align: center;
+    }
+    .chefs{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        row-gap: 17px;
+        padding-bottom: 100px;
+        padding: 0 10px 10px;
+        overflow: scroll;
+      }
+    
+    
+    
+}
