@@ -18,6 +18,7 @@ body {
     color: white;
 
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -76,6 +77,7 @@ body {
     align-items: center;
     column-gap: 21px;
 }
+
 button{
     display: flex;
     align-items: center;
@@ -86,6 +88,10 @@ button{
     border: none;
     color: white;
 }
+.title a{
+    display: none;
+}
+
 button:hover{
     background-color:crimson;
     cursor: pointer;
@@ -184,7 +190,7 @@ button:hover{
     color: #BC9060;
 }
 .order-block{
-    background-image: url(/images/bg.png);
+    background-image:url(../images/bg.png);
     color: white;
     padding: 80px 165px 104px;
     display: flex;
@@ -246,15 +252,53 @@ button:hover{
     justify-content: center;
     column-gap: 32px;
     padding-bottom: 100px;
+    overflow: hidden;
+    
   }
-  .chefs img{
-    width: 300px;
-    height: 200px;
-  } 
+  .footer{
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    position: relative;
+  }
+  .footer::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .footer h1{
+    position: relative;
+    color: white;
+    z-index: 7;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    font-size: 50px;
+    padding-bottom: 100px;
+    z-index: 7;
+    position: relative;
+  }
+  .socials i{
+    color: white;
+    font-size: 50px;
+  }
+  .socials i:hover{
+    color:#BC9060;
+  }
+ 
 
 
 
 @media (max-width:833px){
+
     .menu {
         display: flex;
         justify-content: space-between;
@@ -271,9 +315,12 @@ button:hover{
         display: block;
     }
     .menu i{
-        display: none;
         color: #FF7400;
+        font-size: 20px;
+        
     }
+
+   
     .nav-list{
         display: none;
         flex-direction: column;
@@ -282,11 +329,14 @@ button:hover{
         color: black;
         text-align: center;
         width: 100%;
-        height: 300px;
+        height: 100%;
         position: absolute;
         top:70px;
         left: 0;
+        z-index: 3;
+        
     }
+   
     .nav-list button{
         display: none;
     }
@@ -297,11 +347,12 @@ button:hover{
         display: flex;
         flex-direction: column;
         text-transform: uppercase;
-        font-size: large;
-        line-height: 40px;
+        font-size:40px;
+        line-height: 80px;
         font-weight: bold;
-        
+    
     }
+  
     .title{
         display: flex;
         align-items: center;
@@ -315,9 +366,13 @@ button:hover{
         display: flex;
         flex-wrap: wrap;
         column-gap: 125px;
-        padding: 702px 0 122px;
+        padding: 802px 0 122px;
         position: relative;
         
+    }
+    .short-history p{
+        padding: 0 10px;
+
     }
     .history-cards {
         display: flex;
@@ -325,7 +380,7 @@ button:hover{
         justify-content: center;
         row-gap: 14px;
         position: absolute;
-        transform: translate(0, -26%);
+        transform: translate(0, -10%);
         margin: 0 auto;
         
     }
@@ -344,7 +399,7 @@ button:hover{
         margin: 46px auto 0;
     }
     .order-block{
-        background-image: url(/images/bg.png);
+        background-image: url(../images/bg.png);
         background-size:cover;
         color: white;
         padding: 80px 165px 104px;
@@ -359,9 +414,10 @@ button:hover{
         justify-content: flex-start;
         row-gap: 17px;
         padding-bottom: 100px;
-        padding: 0 10px 10px;
+        padding: 0 10px 50px;
         overflow: scroll;
       }
+     
     
     
     

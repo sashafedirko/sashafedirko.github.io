@@ -24,3 +24,9 @@ var swiper = new Swiper(".mySwiper", {
     document.getElementById("menu-open").style.display = "block"
     document.getElementById("menu-close").style.display = "none"
   })
+
+
+  const menuButton = document.getElementById("menuButton")
+  menuButton.addEventListener("click", function() {
+    document.getElementById("example1").style.display = "block"
+  })
