@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#" id="home">Home</a>
+                <a href="#">About Us</a>
+                <a href="#" id="contact">Contact</a>
+            </nav>
+            
+        </header>
+        <section>
+            <div class="label">
+                <h1 id="title" class="title animate__animated animate__fadeInDown wow" >pick your fruit</h1>
+            </div>
+            <div class="contact" id="contactList">
+                <div class="tel">
+                    <p>Phone:</p>
+                    <a href="tel:+999-888-76-54">+999-888-76-54</a>
+                </div>
+                <div class="mail">
+                    <p>Mail:</p>
+                    <a href="mail:pickyourfruit@gmail.com">pickyourfruit@gmail.com</a>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/b.png" alt="" id="imgberies" class="imgbarries">
+                <img src="images/coc.png" alt="" id="imgcoconut" class="imgcoconut">
+                <img src="images/apelsin.png" alt="" id="imgorange" class="imgorange">
+            </div>
+        </section>
+        <div class="description" id="description">
+            <div class="orange-description description-section" id="orangedescription">
+                <h1>Orange</h1>
+                <p>An orange is a fruit of various citrus species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus sinensis,which is also called sweet orange, to distinguish it from the related Citrus  aurantium, referred to as bitter orange. The sweet orange reproduces asexually (apomixis through nucellar embryony); varieties of sweet orange arise through mutations.</p>
+            </div>
+            <div class="coconut-description description-section" id="coconutdescription">
+                <h1>Coconut</h1>
+                <p>The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos.[1] The term "coconut" (or the archaic "cocoanut")[2] can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut. The name comes from the old Portuguese word coco, meaning "head" or "skull", after the three indentations on the coconut shell that resemble facial features. They are ubiquitous in coastal tropical regions and are a cultural icon of the tropics.</p>
+            </div>
+            <div class="berries-description description-section" id="berriesdescription">
+                <h1>Berries</h1>
+                <p>A berry is a small, pulpy, and often edible fruit. Typically, berries are juicy, rounded, brightly colored, sweet, sour or tart, and do not have a stone or pit, although many pips or seeds may be present. Common examples are strawberries, raspberries, blueberries, blackberries, red currants, white currants and blackcurrants. In Britain, soft fruit is a horticultural term for such fruits.</p>
+            </div>
+        </div>
+        <footer>
+            <button class="butt berries" id="berries">Berries</button>
+            <button class="butt coconut" id="coconut">Coconut</button>   
+            <button class="butt orange" id="orange">Orange</button>          
+        </footer>
+
+    </div>
+    <script src="scripts/script.mjs"></script>
+    <script src="./wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
