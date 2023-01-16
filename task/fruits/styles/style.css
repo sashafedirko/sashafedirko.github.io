@@ -68,10 +68,8 @@ nav a:hover{
     flex-direction: column;
     background-color: white;
     width: 400px;
-    position: absolute;
-    right: 0;
-    top:-150px;
-    transition: all .6s ease;
+    margin: -900px auto;
+    transition: all .66s ease;
     font-size: 20px;
     
 }
@@ -81,9 +79,7 @@ nav a:hover{
     flex-direction: column;
     background-color: white;
     width: 400px;
-    position: absolute;
-    right: 0;
-    top:60px;
+    margin: 280px auto;
     z-index: 13;
     
 }
@@ -98,14 +94,13 @@ nav a:hover{
 .contact p {
     font-weight: 600;
 }
-.tel{
-    display: flex;
-    column-gap: 10px; 
-    padding: 20px 0 0;  
-}
+.tel,
 .mail{
     display: flex;
+    justify-content: space-between;
+    width: 300px;
     column-gap: 10px; 
+     
 }
 
 .social{
@@ -133,6 +128,32 @@ nav a:hover{
     transition: all .3s ease;
     color:dodgerblue;
 }
+.message{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.name,
+.num,
+.tetx-area{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.send{
+    background-color: none;
+    border: none;
+    margin-bottom: 30px;
+    height: 30px;
+    transition: all 0.6s ease;
+
+}
+.send:hover{
+    background-color: crimson;
+}
+.contact h1{
+    padding-bottom: 30px;
+}
 
 
 
@@ -147,9 +168,11 @@ nav a:hover{
     top:20px;
     padding: 10px;
     opacity: 96%;
+    transition: all ease .5s;
     
 
 }
+
 .description-section h1{
     font-size: 70px;
    
@@ -272,16 +295,25 @@ nav a:hover{
         
     
     }
+    .contact{
+    
+        display: flex;
+        align-items:  center;
+        flex-direction: column;
+        background-color: white;
+        width: 400px;
+        margin: -900px auto;
+        transition: all .66s ease;
+        font-size: 20px;
+        
+    }
     .contactactive{
         display: flex;
         align-items:  center;
         flex-direction: column;
         background-color: white;
         width: 400px;
-        position: absolute;
-        right: 50%;
-        top:60px;
-        margin-right: -200px;
+        margin: 175px auto;
         z-index: 13;
         
     }
@@ -401,5 +433,7 @@ footer{
 
 .butt:hover{
     scale: 1.2;
+    box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -15px, rgba(0, 0, 0, 1) 0px 30px 60px -30px;;
+    
     
 }

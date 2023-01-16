@@ -129,6 +129,18 @@ home.addEventListener('click', function(){
 const contact = document.getElementById('contact')
 contact.addEventListener('click', function(){
     document.getElementById('contactList').classList.add('contactactive')
+
+    document.getElementById('title').classList.add('activetitle')
+
+    document.getElementById('imgorange').classList.remove('activeiOrangeimg')
+
+
+    document.getElementById('imgcoconut').classList.remove('activecocimg')
+
+
+    document.getElementById('imgberies').classList.remove('activeberrimg')
+
+    document.getElementById('description').classList.remove('descriptionactive')
     
     
 
