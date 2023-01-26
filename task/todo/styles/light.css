@@ -8,23 +8,13 @@
 body{
     font-family: 'Source Sans Pro', 'Roboto', sans-serif;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(35, 35, 39) 100%);
+    background: linear-gradient(0deg, rgb(201, 194, 194) 0%, rgb(108, 108, 182) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     padding: 70px 0;
     
-}
-.invert{
-    font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgb(231, 211, 211) 0%, rgb(131, 131, 241) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    padding: 70px 0;
 }
 .container{
     width: 40%;
@@ -162,25 +152,6 @@ section{
     text-align: center;
     z-index: -1;
 }
-.mood{
-    display: block;
-    color: white;
-    font-size: 40px;
-    background: none;
-    border: none;
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    transition: all .6s ease;
-    cursor: pointer;
-}
-.moodactive{
-    color: rgb(48, 40, 40);
-    transform: rotateY(180deg);
-
-}
-
-
 
 
 

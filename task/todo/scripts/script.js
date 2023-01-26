@@ -59,6 +59,18 @@ butt.addEventListener('click', function(){
    
 })
 
+
+
+
+const switchMood = document.getElementById('mood')
+switchMood.addEventListener('click', function(){
+    const body = document.body
+    body.classList.toggle('invert')
+    switchMood.classList.toggle('moodactive')
+    
+   
+})
+
 var todos;
 function tolocal(){
     todos = document.querySelector('#tasks').innerHTML;
@@ -67,3 +79,5 @@ function tolocal(){
 if(localStorage.getItem('todos')){
     document.querySelector('#tasks').innerHTML = localStorage.getItem('todos')
 }
+
+
