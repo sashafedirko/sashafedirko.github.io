@@ -58,20 +58,18 @@ butt.addEventListener('click', function(){
 
    
 })
-
-
-
-
-const switchMood = document.getElementById('mood')
-switchMood.addEventListener('click', function(){
+const button = document.getElementById('button')
+button.addEventListener('click',function(){
+    button.classList.toggle('button')
+    const circle = document.getElementById('circle')
+    circle.classList.toggle('circle')
     const body = document.body
     body.classList.toggle('invert')
-    switchMood.classList.toggle('moodactive')
-    const font = document.getElementById('font')
-    font.classList.toggle('blackfont')
-    
-   
+    const title = document.getElementById('font')
+    title.classList.toggle('blackfont')
 })
+
+
 
 var todos;
 function tolocal(){

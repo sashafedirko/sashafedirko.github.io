@@ -181,47 +181,65 @@ section{
     text-align: center;
     z-index: -1;
 }
-.mood{
-    display: block;
-    color: white;
-    background: none;
-    border: none;
+
+.swither{
     position: absolute;
+    top:25px;
     right: 20px;
-    top: 20px;
-    transition: all .4s ease;
-    cursor: pointer;
-    background-image: url("../images/786385.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 45px;
-    height: 45px;
-    filter: invert(5);
-    opacity: 90%;
+    
 }
 
-.moodactive{
-    display: block;
-    color: white;
-    background: none;
+.buttonnotactive{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 60px;
+    background-color:antiquewhite;
+    transition: all 1s ease;
     border: none;
-    position: absolute;
-    right: 20px;
-    top:20px;
-    cursor: pointer;
-    background-image: url("../images/image.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all .4s ease;
-    width: 45px;
-    height: 45px;
-    filter: sepia(1);
-    opacity: 90%;
     
-    
-   
 
 }
+.circlenotactive{
+    position: absolute;
+    top:5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 1px 20px  gray;
+    transition: all .6s ease;
+}
+.button{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 60px;
+    background-color:indianred;
+    transition: all 1s ease;
+    border: none;
+
+}
+.circle{
+    position: absolute;
+    top:5px;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: none;
+    transition: all .6s ease;
+}
+
+
+
+
+
+
+
+
 
 
 
