@@ -67,6 +67,8 @@ switchMood.addEventListener('click', function(){
     const body = document.body
     body.classList.toggle('invert')
     switchMood.classList.toggle('moodactive')
+    const font = document.getElementById('font')
+    font.classList.toggle('blackfont')
     
    
 })

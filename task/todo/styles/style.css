@@ -7,24 +7,28 @@
 
 body{
     font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-    background: rgb(0,0,0);
+    /*background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(35, 35, 39) 100%);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     display: flex;
     justify-content: center;
     padding: 70px 0;
+    transition: all .4s ease;
+    background-color: #2a2a2d;
     
 }
 .invert{
     font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-    background: rgb(0,0,0);
+    /*background: rgb(0,0,0);
     background: linear-gradient(0deg, rgb(231, 211, 211) 0%, rgb(131, 131, 241) 100%);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     display: flex;
     justify-content: center;
     padding: 70px 0;
+    transition: all .4s ease;
+    background: #e0e0e0;
 }
 .container{
     width: 40%;
@@ -36,14 +40,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 80px;
    
 }
 h1{
+    position: absolute;
+    top: 50px;
+    right:50% ;
+    margin-right: -70px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     margin-bottom: 30px;
     
+}
+.blackfont{
+    position: absolute;
+    top: 50px;
+    right:50% ;
+    margin-right: -70px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 header{
     background-color: white;
@@ -165,18 +184,42 @@ section{
 .mood{
     display: block;
     color: white;
-    font-size: 40px;
     background: none;
     border: none;
     position: absolute;
-    right: 10px;
-    top: 5px;
-    transition: all .6s ease;
+    right: 20px;
+    top: 20px;
+    transition: all .4s ease;
     cursor: pointer;
+    background-image: url("../images/786385.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    filter: invert(5);
+    opacity: 90%;
 }
+
 .moodactive{
-    color: rgb(48, 40, 40);
-    transform: rotateY(180deg);
+    display: block;
+    color: white;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    cursor: pointer;
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .4s ease;
+    width: 45px;
+    height: 45px;
+    filter: sepia(1);
+    opacity: 90%;
+    
+    
+   
 
 }
 
@@ -197,7 +240,29 @@ section{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 50px;
        
+    }
+    h1{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        text-transform: uppercase;
+        color: white;
+        margin-right: 30px;
+        transition: all .4s ease;
+        
+        
+        
+    }
+    .blackfont{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        text-transform: uppercase;
+        color: black;
+        margin-right: 30px;
+        transition: all .4s ease;
     }
 
 }
