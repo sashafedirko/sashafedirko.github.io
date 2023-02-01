@@ -42,10 +42,12 @@ fetch(json_url)
     document.getElementById('date').innerText = data[0].date
     document.getElementById('rate').innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i>${data[0].imdb}`
 
-    setInterval(function(){
-        document.getElementById('title').innerText = data[0].name
-        
-    },2000) 
+    data.forEach(el=>{
+        let {name} = el;
+        for(let i=0; i<name.length; i++){
+            
+        }
+    })
     
   
 
@@ -99,5 +101,5 @@ openBurger.addEventListener('click',function(){
     line1.classList.toggle('closeline1')
     line2.classList.toggle('closeline2')
     line3.classList.toggle('closeline3')
-    document.querySelector('nav').classList.toggle('.active')
+    document.getElementById('bur').classList.toggle('active')
 })
