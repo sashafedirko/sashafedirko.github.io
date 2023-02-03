@@ -9,10 +9,11 @@ body{
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(61, 59, 59);
+    background-color: rgb(71, 52, 52);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .6s ease;
 }
 header{
     position: relative;
@@ -21,7 +22,7 @@ header{
     /*border: 1px solid white;*/
     border-radius: 0px;
     overflow: hidden;
-    box-shadow: 0px 5px 25px -10px #000;
+    box-shadow: 0px 5px 25px -10px rgb(0, 0, 0);
 }
 header::before{
     content: "";
@@ -31,7 +32,7 @@ header::before{
     /*background: url("../images/money\ heist1.jpg");
     background-position: center;
     background-size: cover;*/
-    background: linear-gradient(360deg, rgb(7, 11, 15), rgb(28, 78, 119));
+    background: linear-gradient(360deg, rgb(7, 11, 15), rgba(28, 78, 119, 0.534));
     opacity: .8;
     z-index: -1;
 }
@@ -41,7 +42,7 @@ header::after{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(180deg,transparent, #000);
+    background: linear-gradient(180deg,transparent, rgb(24, 24, 24));
 }
 header video{
     position: absolute;
@@ -220,6 +221,7 @@ header .content {
 }
 header .content h1{
     font-size: 50px;
+    
     
 }
 header .content p{
@@ -457,6 +459,7 @@ header section:hover .bi-chevron-left{
         width: 30px;
         height: 20px;
         z-index: 999;
+        cursor: pointer;
     }
     .line1{
         width:30px;
@@ -464,6 +467,7 @@ header section:hover .bi-chevron-left{
         background-color: white;
         transition: all .6s ease;
         z-index: 999;
+        border-radius: 20px;
         
     }
     .line2{
@@ -472,6 +476,7 @@ header section:hover .bi-chevron-left{
         background-color: white;
         transition: all .6s ease;
         z-index: 999;
+        border-radius: 20px;
         
     }
     .line3{
@@ -480,6 +485,7 @@ header section:hover .bi-chevron-left{
         background-color: white;
         transition: all .6s linear;
         z-index: 999;
+        border-radius: 20px;
         
     }
     .closeline1{
@@ -490,6 +496,7 @@ header section:hover .bi-chevron-left{
         transition: all .6s ease;
         z-index: 999;
         margin-top: 6px;
+        border-radius: 20px;
         
     }
     .closeline2{
@@ -499,6 +506,7 @@ header section:hover .bi-chevron-left{
         background-color: white;
         transition: all .6s ease;
         z-index: 999;
+        border-radius: 20px;
 
         
     }
@@ -510,6 +518,7 @@ header section:hover .bi-chevron-left{
         margin-bottom: 5px;
         transition: all .6s ease;
         z-index: 999;
+        border-radius: 20px;
         
     }
     .logo_ul{

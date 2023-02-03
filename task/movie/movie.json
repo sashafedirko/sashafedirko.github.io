@@ -90,19 +90,6 @@
     "medium": "video/kota factory 720ph.mp4",
     "high": "video/kota factory 1080ph.mp4"
 }, {
-    "name": "Collage Romance",
-    "imdb": 7.9,
-    "date": "2021",
-    "sposter": "images/collage romance.jpg",
-    "bposter": "images/collage romance1.jpg",
-    "genre": "Action",
-    "type": "series",
-    "url": "collage romance.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "video/collage romance 480ph.mp4",
-    "medium": "video/collage romance 720ph.mp4",
-    "high": "video/collage romance 1080ph.mp4"
-}, {
     "name": "Thor Love Of Thunder",
     "imdb": 8.8,
     "date": "2022",
@@ -128,20 +115,7 @@
     "low": "video/uncharted 480ph.mp4",
     "medium": "video/uncharted 720ph.mp4",
     "high": "video/uncharted 1080ph.mp4"
-}, {
-    "name": "Eesho",
-    "imdb": 8.2,
-    "date": "2022",
-    "sposter": "images/eesho.jpeg",
-    "bposter": "images/eesho1.jpg",
-    "genre": "Action",
-    "type": "movie",
-    "url": "eesho.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "video/eesho 480ph.mp4",
-    "medium": "video/eesho 720ph.mp4",
-    "high": "video/eesho 1080ph.mp4"
-}, {
+},  {
     "name": "Top Gun",
     "imdb": 8.0,
     "date": "2022",

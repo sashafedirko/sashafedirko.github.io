@@ -37,17 +37,48 @@ fetch(json_url)
         cards.appendChild(card)
 
     });
-    
+
     document.getElementById('gen').innerText = data[0].genre
     document.getElementById('date').innerText = data[0].date
     document.getElementById('rate').innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i>${data[0].imdb}`
 
-    data.forEach(el=>{
-        let {name} = el;
-        for(let i=0; i<name.length; i++){
-            
+ 
+    
+    setInterval(function(){
+        document.getElementById('title').innerText = (names[cnahgeNames()])
+        document.body.style.backgroundColor = (wallpapers[cnahgecolor()])
+        function cnahgeNames(){
+            return Math.floor(Math.random()*names.length)
         }
-    })
+        function cnahgecolor(){
+            return Math.floor(Math.random()*wallpapers.length)
+        }
+    },4000)
+    const names = ["Ant man","Spiderman","Avangers","The Boys","Money Heist","John Wick","Moon Knight","Kota Factory","Thor Love Of Thunder","Uncharted","Top Gun","Jurassic World","Eternals"]
+    const wallpapers = ['red','green','yellow','orange','blue','pink','purpple','gray','black']
+
+   /* data.forEach((el)=>{
+        let{name} = el;
+        const content = document.getElementById('content')
+        let text = document.createElement('a')
+
+        setInterval(function(){
+            let bl = text.innerHTML = `<h1>${name}</h1>`
+            console.log(bl)
+           
+        },4000)
+
+        function change(){
+            return Math.floor(Math.random()*text.length)
+        }
+      
+         
+
+    })*/
+
+    
+  
+
     
   
 
