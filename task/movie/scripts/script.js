@@ -38,43 +38,32 @@ fetch(json_url)
 
     });
 
-    document.getElementById('gen').innerText = data[0].genre
+    /*document.getElementById('gen').innerText = data[0].genre
     document.getElementById('date').innerText = data[0].date
-    document.getElementById('rate').innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i>${data[0].imdb}`
+    document.getElementById('rate').innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i>${data[0].imdb}`*/
 
  
     
-    setInterval(function(){
-        document.getElementById('title').innerText = (names[cnahgeNames()])
-        document.body.style.backgroundColor = (wallpapers[cnahgecolor()])
-        function cnahgeNames(){
-            return Math.floor(Math.random()*names.length)
-        }
-        function cnahgecolor(){
-            return Math.floor(Math.random()*wallpapers.length)
-        }
-    },4000)
-    const names = ["Ant man","Spiderman","Avangers","The Boys","Money Heist","John Wick","Moon Knight","Kota Factory","Thor Love Of Thunder","Uncharted","Top Gun","Jurassic World","Eternals"]
-    const wallpapers = ['red','green','yellow','orange','blue','pink','purpple','gray','black']
-
-   /* data.forEach((el)=>{
-        let{name} = el;
-        const content = document.getElementById('content')
-        let text = document.createElement('a')
-
+  
+    data.forEach((el,i)=>{
+        let{name,date,genre,imdb,description,color} = el;
         setInterval(function(){
-            let bl = text.innerHTML = `<h1>${name}</h1>`
-            console.log(bl)
+            document.getElementById('title').innerHTML = `<h1>${name}</h1>`
+            document.getElementById('description').innerHTML = `<p>${description}</p>`
+            document.getElementById('date').innerHTML = `<h4 id="date">${date}</h4>`
+            document.getElementById('gen').innerHTML = `<h5 id="gen">${genre}</h5>`
+            document.getElementById('rate').innerHTML = `<h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i>${imdb}</h3>`
+
+            document.body.style.backgroundColor = color
            
-        },4000)
+        },4000*(i+1))
+        
+        
+        
+            
+    })
 
-        function change(){
-            return Math.floor(Math.random()*text.length)
-        }
-      
-         
 
-    })*/
 
     
   
