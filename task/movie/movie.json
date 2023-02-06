@@ -12,7 +12,7 @@
     "medium": "video/the boys 720ph.mp4",
     "high": "video/the boys 1080ph.mp4",
     "description":"A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
-    "background":"red"
+    "background":"url('../images/boys.jpg')"
 }, {
     "name": "Money Heist",
     "imdb": 9.9,
