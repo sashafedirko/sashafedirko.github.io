@@ -9,7 +9,9 @@ body{
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(71, 52, 52);
+    background:url('../images/wall.jpg');
+    background-position:center;
+    background-size:cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +24,7 @@ header{
     /*border: 1px solid white;*/
     border-radius: 0px;
     overflow: hidden;
-    box-shadow: 0px 5px 25px -10px rgb(0, 0, 0);
+    box-shadow: 0px 5px 25px -10px rgba(0, 0, 0, 0.918);
 }
 header::before{
     content: "";
@@ -32,7 +34,7 @@ header::before{
     /*background: url("../images/money\ heist1.jpg");
     background-position: center;
     background-size: cover;*/
-    background: linear-gradient(360deg, rgb(7, 11, 15), rgba(28, 78, 119, 0.534));
+    background: linear-gradient(360deg, rgb(7, 11, 15), rgb(0, 0, 0));
     opacity: .8;
     z-index: -1;
 }

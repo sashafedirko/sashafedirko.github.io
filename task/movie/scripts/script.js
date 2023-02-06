@@ -46,7 +46,7 @@ fetch(json_url)
     
   
     data.forEach((el,i)=>{
-        let{name,date,genre,imdb,description,color} = el;
+        let{name,date,genre,imdb,description,background} = el;
         setInterval(function(){
             document.getElementById('title').innerHTML = `<h1>${name}</h1>`
             document.getElementById('description').innerHTML = `<p>${description}</p>`
@@ -54,7 +54,9 @@ fetch(json_url)
             document.getElementById('gen').innerHTML = `<h5 id="gen">${genre}</h5>`
             document.getElementById('rate').innerHTML = `<h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i>${imdb}</h3>`
 
-            document.body.style.backgroundColor = color
+            document.body.style.background = background
+            document.body.style.backgroundPosition = 'center'
+            document.body.style.backgroundSize = 'cover'
            
         },4000*(i+1))
         
