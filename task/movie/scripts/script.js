@@ -12,7 +12,7 @@ left_btn.addEventListener('click',function(){
 right_btn.addEventListener('click',function(){
     cards.scrollLeft += 140
 })
-let json_url = 'movie.json'
+let json_url = "https://sashafedirko.github.io/task/movie/movie.json"
 fetch(json_url)
 .then(response => response.json())
 .then(data => {

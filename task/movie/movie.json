@@ -12,7 +12,7 @@
     "medium": "video/the boys 720ph.mp4",
     "high": "video/the boys 1080ph.mp4",
     "description":"A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
-    "background":"url('images/boys.jpg')"
+    "background":"url('../images/boys.jpg')"
 }, {
     "name": "Money Heist",
     "imdb": 9.9,
@@ -27,7 +27,7 @@
     "medium": "video/money heist 720ph.mp4",
     "high": "video/money heist 1080ph.mp4",
     "description":"An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
-    "background":"url('images/money heist1.jpg')"
+    "background":"url('../images/money heist1.jpg')"
 }, {
     "name": "John Wick",
     "imdb": 9.8,
@@ -42,7 +42,7 @@
     "medium": "video/Jhon Wick 720ph.mp4",
     "high": "video/Jhon Wick 1080ph.mp4",
     "description":"Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
-    "background":"url('images/john w.jpg')"
+    "background":"url('../images/john w.jpg')"
 }, {
     "name": "Ant Man",
     "imdb": 8.9,
@@ -57,7 +57,7 @@
     "medium": "video/ant man 720ph.mp4",
     "high": "video/ant man 1080ph.mp4",
     "description":"Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
-    "background":"url('images/ant.jpg')"
+    "background":"url('../images/ant.jpg')"
 }, {
     "name": "Avengers",
     "imdb": 9.9,
@@ -72,7 +72,7 @@
     "medium": "video/avengers 720ph.mp4",
     "high": "video/avengers 1080ph.mp4",
     "description":"After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-    "background":"url('images/avengers1.jpg')"
+    "background":"url('../images/avengers1.jpg')"
 }, {
     "name": "Moon Knight",
     "imdb": 7.3,
@@ -87,7 +87,7 @@
     "medium": "video/moon knight 720ph.mp4",
     "high": "video/moon knight 1080ph.mp4",
     "description":"When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
-    "background":"url('images/moon.jpg')"
+    "background":"url('../images/moon.jpg')"
 }, {
     "name": "Thor Love Of Thunder",
     "imdb": 8.8,
@@ -102,7 +102,7 @@
     "medium": "video/thor love of thunder 720ph.mp4",
     "high": "video/thor love of thunder 1080ph.mp4",
     "description":"After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
-    "background":"url('images/thor.jpg')"
+    "background":"url('../images/thor.jpg')"
 }, {
     "name": "Uncharted",
     "imdb": 9.8,
@@ -117,7 +117,7 @@
     "medium": "video/uncharted 720ph.mp4",
     "high": "video/uncharted 1080ph.mp4",
     "description":"A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
-    "background":"url('images/uncharted1.jpg')"
+    "background":"url('../images/uncharted1.jpg')"
 },  {
     "name": "Top Gun",
     "imdb": 8.0,
@@ -132,7 +132,7 @@
     "medium": "video/topgun 720ph.mp4",
     "high": "video/topgun 1080ph.mp4",
     "description":"After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
-    "background":"url('images/topg.jpg')"
+    "background":"url('../images/topg.jpg')"
 }, {
     "name": "Jurassic World",
     "imdb": 8.0,
@@ -147,7 +147,7 @@
     "medium": "video/jurassic world 720ph.mp4",
     "high": "video/jurassic world 1080ph.mp4",
     "description":"Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
-    "background":"url('images/jw.jpg')"
+    "background":"url('../images/jw.jpg')"
 }, {
     "name": "Eternals",
     "imdb": 9.0,
@@ -162,7 +162,7 @@
     "medium": "video/eternals 720ph.mp4",
     "high": "video/eternals 1080ph.mp4",
     "description":"The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
-    "background":"url('images/eternals.jpg')"
+    "background":"url('../images/eternals.jpg')"
 }, {
     "name": "Spider Man",
     "imdb": 9.9,
@@ -177,5 +177,5 @@
     "medium": "video/spiderman 720ph.mp4",
     "high": "video/spiderman 1080ph.mp4",
     "description":"Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-    "background":"url('images/sm.jpg')"
+    "background":"url('../images/sm.jpg')"
 }]
