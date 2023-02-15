@@ -10,7 +10,7 @@ openBurger.addEventListener('click',function(){
     const nav = document.getElementById('nav')
     nav.classList.toggle('list_nav_active')
 })
-
+/*
 const url = 'cards.json'
 fetch(url)
 .then(response => response.json())
@@ -27,4 +27,4 @@ fetch(url)
         cards.appendChild(card)
         
     });
-})
+})*/

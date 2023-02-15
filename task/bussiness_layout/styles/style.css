@@ -34,15 +34,29 @@ nav ul{
     display: flex;
     column-gap: 34px;
 }
-nav li{
+li{
     list-style: none;
 }
-nav li a{
+a{
     text-decoration: none;
     color: white;
-    font-weight: 400;
-    font-size: 12px;
+    border-width: 0px 0px 0px;
+    border-style: solid;
+    border-color: rgba(0, 119, 255, 0.452);
+    transition: .2s all ease;
+    
 }
+
+a:hover{
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    border-color: rgba(255, 0, 106, 0.548);
+    transition: .2s all ease;
+    
+    
+}
+
+
 .burger_wrap{
     display: none;
 }
@@ -181,7 +195,7 @@ nav li a{
     font-size: 17px;
     padding-top: 30px;
 }
-.cards{
+/*.cards{
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -211,6 +225,46 @@ nav li a{
     background-color: white;
     box-shadow: 1px 10px 10px  rgb(32, 32, 32);
 
+    
+}*/
+
+.cards{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    padding-bottom: 30px;
+    
+}
+.cards > div{
+    flex:1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: black;
+    cursor: pointer;
+    transition: all .8s ease;
+    position: relative;
+    
+}
+.cards > div:hover{
+    flex: 2.5;
+    transition: all .8s ease;
+    
+}
+.cards > div p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.007);
+    background-color: rgba(255, 255, 255, 0);
+    transition-delay: .6s;
+    transition: all .6s ease;
+}
+.cards > div:hover p{
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgba(0, 0, 0, 0.945);
+    position: absolute;
+    transition-delay: .5s;
     
 }
 .run_string_overflow{
@@ -469,6 +523,7 @@ nav li a{
         display: block;
     }
     .cards_title h1{
+        padding-top: 30px;
         font-weight: 400;
         font-size: 50px;
     }
@@ -476,8 +531,9 @@ nav li a{
         font-weight: 400;
         font-size: 17px;
         padding-top: 30px;
+        padding-bottom: 30px;
     }
-    .cards{
+    /*.cards{
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -485,6 +541,43 @@ nav li a{
         column-gap: 30px;
         row-gap: -0px;
         margin-top: 30px;
+    }*/
+    .cards{
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+        
+    }
+    .cards > div{
+        flex:1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all .8s  cubic-bezier(.25 .4 .45 1.4);
+        background-color: black;
+        cursor: pointer;
+        
+    }
+    .cards > div:hover{
+        flex: 32;
+        transition: all .8s ease;
+        
+    }
+    .run_string_wrap h1{
+        margin-left: -400px;
+        color:gainsboro;
+        font-size: 40px;
+        animation: runstring 20s infinite linear ;
+        width: 4000px;
+    
+    }
+    .run_string_wrap h2{
+        margin-left: -400px;
+        color:gainsboro;
+        font-size: 40px;
+        animation: runstringreverse 20s infinite linear;
+        width: 4000px;
+    
     }
    
 }
