@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+section{
+    margin:  0 auto;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+button{
+    background: rgba(255, 255, 255, 0.384);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0%;
+    border: 5px solid black;
+    
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.993);
+    color: black;
+}
+.calk_result{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    background-color: black;
+}
+.operator{
+    background-color: orange;
+}
+.operator:hover{
+    background-color: rgb(255, 234, 47);
+    color: black;
+}
+.equel{
+    background: url(./equal.png);
+    background-repeat: no-repeat;
+    background-size:10px;
+    background-position: center;
+    background-color: greenyellow;
+}
+.equel:hover{
+    background: url(./equal.png);
+    background-repeat: no-repeat;
+    background-size:10px;
+    background-position: center;
+    background-color: rgb(255, 234, 47);
+    
+}
+
+@media(max-width:550px){
+    section{
+        margin:  0 auto;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 40px;
+        
+        
+    }
+    .calk_result{
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+    }
+    button{
+        background: rgba(255, 255, 255, 0.384);
+        color: white;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: 600;
+        border-radius: 0%;
+        border: 5px solid black;
+        
+    }
+    .equel{
+        background: url(./equal.png);
+        background-repeat: no-repeat;
+        background-size:20px;
+        background-position: center;
+        background-color: greenyellow;
+    }
+   
+}
+
+
