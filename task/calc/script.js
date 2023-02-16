@@ -23,11 +23,14 @@ calc.addEventListener('click',function(event){
             result.innerHTML = left
     }
 
-    const equel = document.getElementById('equel')
-    equel.addEventListener('click',function(){
-        
-        
-    })
+    if(result.innerHTML.length == '11'){
+        result.innerHTML = 'error'    
+    }
+    setTimeout(function(){
+        if(result.innerHTML == 'error'){
+            result.innerHTML = ''    
+        }
+    },3000)
 
     
 
