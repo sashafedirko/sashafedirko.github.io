@@ -12,34 +12,51 @@
     <script>new WOW().init();</script>
 </head>
 <body>
+    <form action="#" class="form" id="login_form">
+        <input type="text" placeholder="username">
+        <input type="text" placeholder="password">
+        <button>login</button>
+        <p>Not registered? <span>Create an acoount</span></p>
+    </form>
+    <form action="#" class="form_try_for_free" id="form_try_for_free">
+        <h1>My Form</h1>
+        <input type="text" placeholder="first name">
+        <input type="text" placeholder="last name">
+        <input type="text" placeholder="mail">
+        <button>submitt</button>
+    </form>
+    <div class="scroll_up" id="scroll_up">
+        <img src="images/up.png" alt="">
+    </div>
     <div class="container"></div>
         <header>
             <img src="images/logo.png" alt="">
-            <div class="nav_panel">
+            <div class="nav_panel" id="nav">
                 <nav>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Resources</a></li>
                 </nav>
                 <div class="buttons">
-                    <button>Log in</button>
-                    <button>Try for free</button>
+                    <button id="login">Log in</button>
+                    <button class="try_for_free">Try for free</button>
                 </div> 
             </div> 
             <div class="burger">
-                <img src="images/menu.png" alt="">
+                <img src="images/menu.png" alt="" id="burger_menu" class="burger_menu">
+                <img src="images/close.png" alt="" id="burger_menu_close" class="burger_menu_close">
             </div>
         </header> 
         <main>
             <h1>Financial Automation for<br> Startups and SMEs</h1>
             <p>A single platform to automate your book-keeping, reporting and forecasting.</p>
-            <button>Try for free</button>
+            <button class="try_for_free">Try for free</button>
             <p>No credit card required. Full feature access.</p>
             <img src="images/layout.png" alt="" class="animate__animated animate__fadeInUp wow">
         </main> 
         <section>
             <div class="partners">
-                <img src="images/IMAGE.png" alt="">
+                <img src="images/sp.png" alt="">
                 <img src="images/IMAGE (1).png" alt="">
                 <img src="images/IMAGE (2).png" alt="">
                 <img src="images/IMAGE (3).png" alt="">
@@ -104,42 +121,18 @@
                     <p>Automate creating investor pitch decks</p>
                 </div>
             </div>
-            <div class="more">
+            <div class="more" id="layout2_buttom">
                 <p>See more models and reports</p>
                 <img src="images/arr2.png" alt="">
             </div>
-            <img src="images/layout2.png" alt="" class="layout2 animate__animated animate__fadeInUp wow">
+            <img src="images/layout2.png" alt="" class="layout2" id='layout2'>
         </div>
        </section>
        <section>
         <div class="articles">
             <h1>Recent articles and resources</h1>
-            <div class="articles_sections animate__animated animate__fadeInUp wow">
-                <div class="article_block">
-                    <img src="images/articl1.png" alt="">
-                    <p>EPM vs. ERP: Optimize your account and finance operations</p>
-                    <div class="arr">
-                        <p>Read more</p>
-                        <img src="images/arr3.png" alt="">
-                    </div>
-                </div>
-                <div class="article_block">
-                    <img src="images/articl2.png" alt="">
-                    <p>Understanding actual budget and variance</p>
-                    <div class="arr">
-                        <p>Read more</p>
-                        <img src="images/arr3.png" alt="">
-                    </div>
-                </div>
-                <div class="article_block">
-                    <img src="images/articl3.png" alt="">
-                    <p>Top 19 small business tools that you need in 2023</p>
-                    <div class="arr">
-                        <p>Read more</p>
-                        <img src="images/arr3.png" alt="">
-                    </div>
-                </div>
-
+            <div class="articles_sections animate__animated animate__fadeInUp wow" id="articles_wrap">
+                <!-- Json data-->
             </div>
 
         </div>
@@ -148,7 +141,7 @@
         <div class="try">
             <h1>Need extra help staying on top of your finances?</h1>
             <p>Our expert bookkeepers and advisors are here to help</p>
-            <button>Try for free</button>
+            <button class="try_for_free">Try for free</button>
         </div>
        </section>
        <footer>
