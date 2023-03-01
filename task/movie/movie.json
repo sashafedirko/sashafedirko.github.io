@@ -71,7 +71,7 @@
     "low": "video/avengers 480ph.mp4",
     "medium": "video/avengers 720ph.mp4",
     "high": "video/avengers 1080ph.mp4",
-    "description":"After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+    "description":"After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos.",
     "background":"url('./images/avengers1.jpg')"
 }, {
     "name": "Moon Knight",
@@ -86,7 +86,7 @@
     "low": "video/moon knight 480ph.mp4",
     "medium": "video/moon knight 720ph.mp4",
     "high": "video/moon knight 1080ph.mp4",
-    "description":"When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+    "description":"When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector.",
     "background":"url('./images/moon.jpg')"
 }, {
     "name": "Thor Love Of Thunder",
@@ -101,7 +101,7 @@
     "low": "video/thor love of thunder 480ph.mp4",
     "medium": "video/thor love of thunder 720ph.mp4",
     "high": "video/thor love of thunder 1080ph.mp4",
-    "description":"After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+    "description":"After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor.",
     "background":"url('./images/thor.jpg')"
 }, {
     "name": "Uncharted",
@@ -176,6 +176,6 @@
     "low": "video/spiderman 480ph.mp4",
     "medium": "video/spiderman 720ph.mp4",
     "high": "video/spiderman 1080ph.mp4",
-    "description":"Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "description":"Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero.",
     "background":"url('./images/sm.jpg')"
 }]
