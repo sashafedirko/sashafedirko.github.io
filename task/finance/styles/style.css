@@ -751,5 +751,65 @@ footer nav li a:hover{
         column-gap: 211px;
         background-color: #242424;
     }
+    .form_active{
+        transition: .5s all ease;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 300px;
+        border-radius: 20px;
+        background-color:#EAED85;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 10px;
+        z-index: 2;
+    }
+    form input{
+        width: 80%;
+        max-width: 320px;
+        height: 40px;
+        padding-left: 20px;
+        border: none;
+    }
+    form input:focus{
+        outline:none;
+        font-size: 15px;
+    }
+    form button{
+        width: 80%;
+        max-width: 320px;
+        height: 40px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+        background-color: #134B48;
+        color: white;
+        transition: .5s all ease;
+    }
+    .form_try_for_free_active{
+        transition: .5s all ease;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 400px;
+        border-radius: 20px;
+        background-color:#EAED85;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 10px;
+        z-index: 2;
+    }
 }
 
