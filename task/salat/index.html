@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.3.0/dist/flickity.min.css" media="screen">
+
+    <title>Food Delivery</title>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="">
+        <div class="menu">
+            <div class="log">
+                <div class="log-in">
+                    <img src="images/person.png" alt="">
+                    <p>Log-in</p>
+                </div>
+                <div class="cart">
+                    <img src="images/cart.png" alt="">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="burger-menu" id="burger">
+                <div class="one-line" id="one"></div>
+                <div class="two-line" id="two"></div>
+            </div>
+            <nav id="nav" class="nav">
+                <a href="#">Delivery info</a>
+                <a href="#">About us</a>
+                <a href="#">Restaurants</a>
+                <a href="#">Specialities</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>Your Food court <br> at home</h1>
+            <div>
+                <button>
+                    <h1>Delivery <br> <span>Order in</span></h1>
+                </button>
+                <button>
+                    <h1>Takeout <br> <span>Grab and go</span></h1>
+                </button>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="images/Photo-plate.png" alt="">
+            <img src="images/rucola-png.png" alt="">
+            <img src="images/Photo-description.png" alt="">
+        </div>
+    </main>
+
+
+    <section class="carousel-section">
+        <div>
+            <h1>Restaurants</h1>
+            <button>show all</button>
+        </div>
+    </section>
+    <section class="main-carousel carousel" data-flickity='{ "groupCells": true }' style="padding: 0 80px; overflow: hidden; ">
+        <div class="carousel-cell">
+            <img src="images/Restaurants/Photo-bas2e.png" alt="">
+            <img src="images/Restaurants/burger.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="images/Restaurants/Photo-ba4se.png" alt="">
+            <img src="images/Restaurants/il_paster.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="images/Restaurants/Photo-base1.png" alt="">
+            <img src="images/Restaurants/Believe.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="images/Restaurants/Photo-base.png" alt="">
+            <img src="images/Restaurants/vietnamese.png" alt="">
+        </div>
+    </section>
+    <section class="find">
+        <div class="title">
+            <h1>Your nearest restaurants</h1>
+            <p>Each kitchen works with its own delivery area to<br>deliver food to you as soon as possible</p>
+        </div>
+        <div class="search">
+            <label for="search"></label>
+            <input type="search" id="search" name="q" placeholder="Enter delivery address"/>
+            <button>send</button>
+        </div>
+    </section>
+
+    <section class="carousel-section">
+        <div>
+            <h1>Specialities</h1>
+            <button>show all</button>
+        </div>
+    </section>
+
+    <section class="main-carousel carousel" data-flickity='{ "groupCells": true }' style="padding: 0 80px; overflow: hidden;">
+        <div class="specialities">
+            <img src="images/Specialities/bagel.png" alt="">
+            <p>Bagel</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/burger.png" alt="">
+            <p>Burger</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/chicken.png" alt="">
+            <p>Chicken</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/fish.png" alt="">
+            <p>Fish</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/fishnchips.png" alt="">
+            <p>Fish-chips</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/vegan.png" alt="">
+            <p>Salads</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/pizza.png" alt="">
+            <p>Pizza</p>
+        </div>
+        <div class="specialities">
+            <img src="images/Specialities/raviolli.png" alt="">
+            <p>Pasta</p>
+        </div>
+    </section>
+
+    <section class="usp">
+        <div>
+            <div>1</div>
+            <p>kitchen</p>
+        </div>
+        <div>
+            <div>11</div>
+            <p>specialties</p>
+        </div>
+        <div>
+            <div>11</div>
+            <p>estaurants</p>
+        </div>
+        <div>
+            <div>1</div>
+            <p>transport costs</p>
+        </div>
+    </section>
+
+    <section class="map">
+        <img src="images/Mapsicle Map.png" alt="">
+        <img src="images/loc.png" alt="руддщ">
+        <img src="images/loc.png" alt="">
+        <img src="images/loc.png" alt="">
+        <img src="images/loc.png" alt="">
+        <img src="images/loc.png" alt="">
+    </section>
+
+    <section class="images">
+        <h1>#YellowKitchens <span>in instagram</span></h1>
+        <div>
+            <img src="images/Rectangle 10.png" alt="">
+            <img src="images/Rectangle 11.png" alt="">
+            <img src="images/Rectangle 12.png" alt="">
+            <img src="images/Rectangle 13.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="store">
+            <img src="images/Logo_footer.png" alt="">
+            <hr>
+            <div>
+                <img src="images/app-img1-1.png" alt="">
+                <img src="images/app-img2-1.png" alt="">
+            </div>
+        </div>
+        <div class="footer_navigation">
+            <div class="about">
+                <h1>About Us</h1>
+                <a href="">Concept</a>
+                <a href="">Franchise</a>
+                <a href="">Business</a>
+                <a href="">Restaurant signup</a>
+                <a href="">For Investors</a>
+            </div>
+            <div class="help">
+                <h1>Get help</h1>
+                <a href="">Read FAQs</a>
+                <a href="">Restaurants</a>
+                <a href="">Specialities</a>
+                <a href="">Sign up to deliver</a>
+                <a href="">English</a>
+            </div>
+            <div class="contact">
+                <h1>Contact us</h1>
+                <p>Yellow kitchen Paris 11</p>
+                <p>69 avenue de la Republique 75011 Paris</p>
+                <a href="tel:0800 111 126">0800 111 126</a>
+                <a href="mail:contact@yellowkitchens.com">contact@yellowkitchens.com</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+
+
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js"></script>
+
+</body>
+</html>
