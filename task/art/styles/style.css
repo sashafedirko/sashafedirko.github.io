@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Raleway:wght@300&display=swap');
+@font-face {
+    font-family: Nympha Trial;
+    src: url(./../Nympha/LCT/TTF/NymphaTrial-Light.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #261D1D;
+    scroll-behavior: smooth;
+}
+header{
+    padding: 0 80px;
+}
+header nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+main{
+    height: 90vh;
+    width: 100%;
+    padding: 0 80px;
+    position: relative;
+    overflow: hidden;
+}
+main h1{
+    font-family: Nympha Trial;
+    font-size: 20vw;
+    font-weight:400;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+
+}
+main img{
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top:3em;
+    left:50%;
+    transform: translate(-50%,-0%);
+    z-index: 9;
+}
+.info{
+    padding: 0 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 20vh;
+
+}
+.info .info_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.info p{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: .4s all ease;
+    text-align: center;
+}
+.info h1{
+    font-family: Nympha Trial;
+    font-size: 24px;
+    font-weight: 300;
+    transition: .4s all ease;
+    text-align: center;
+}
+
+.images{
+    width: 100%;
+    padding: 0 80px;
+    height: 160vh;
+    position: relative;
+    overflow: hidden;
+}
+.images img:nth-child(1){
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 80px;
+    top: 0vh;
+    z-index: 20;
+}
+.images img:nth-child(2){
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    right: 80px;
+    top: 30vh;
+    z-index: 20;
+}
+.images img:nth-child(3){
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 80px;
+    top: 60vh;
+    z-index: 20;
+}
+.images img:nth-child(4){
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    right: 80px;
+    top: 80vh;
+    z-index: 20;
+}
+.images h1{
+    font-family: Nympha Trial;
+    font-size: 20vw;
+    font-weight: 500;
+    color: #8D8D8D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 19;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    header{
+        padding: 0 10px;
+    }
+    .info{
+        padding: 0 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 20vh;
+    
+    }
+    .images{
+        width: 100%;
+        padding: 0 10px;
+        height: 160vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .images img:nth-child(1){
+        width: 240px;
+        height: auto;
+        position: absolute;
+        left: 10px;
+        top: 0vh;
+        z-index: 20;
+    }
+    .images img:nth-child(2){
+        width: 240px;
+        height: auto;
+        position: absolute;
+        right: 10px;
+        top: 30vh;
+        z-index: 20;
+    }
+    .images img:nth-child(3){
+        width: 240px;
+        height: auto;
+        position: absolute;
+        left: 10px;
+        top: 60vh;
+        z-index: 20;
+    }
+    .images img:nth-child(4){
+        width: 220px;
+        height: auto;
+        position: absolute;
+        right: 10px;
+        top: 80vh;
+        z-index: 20;
+    }
+}
