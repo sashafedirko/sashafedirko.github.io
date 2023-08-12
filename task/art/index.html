@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 
     <title>Art</title>
 </head>
@@ -19,9 +20,32 @@
         </header>
     
         <main>
-            <h1 >Editorial</h1>
-            <img src="images/Main-IMG.png" alt="" data-scroll="" data-scroll-speed="10" data-scroll-direction="horizontal">
+            <h1 class="title" id="title">Editorial</h1>
+            <img src="images/Main-IMG.png" alt="" data-scroll="" data-scroll-speed="7" >
         </main>
+
+        <div class="swiper sample-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/yasu-shots-_y6hMz1pJC0-unsplash.jpg" alt="">
+                    <h1>Yasu</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/dev-asangbam-uHA21Gs-2Mc-unsplash.jpg" alt="">
+                    <h1>Melanie</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/gabriel-silverio-K_b41GaWC5Y-unsplash.jpg" alt="">
+                    <h1>Gabriel</h1>
+                </div>
+            </div>
+            <div class="swiper-button-prev swiper-button">
+                <img src="images/left-arrow.png" alt="">
+            </div>
+            <div class="swiper-button-next swiper-button">
+                <img src="images/right-arrow.png" alt="">
+            </div>
+        </div>
     
         <section class="info">
             <div class="info_block">
@@ -49,19 +73,23 @@
 
         <section class="new_profects">
             <h1>Next Project</h1>
-            <img src="images/_H5A0842.png" alt="" data-scroll="" data-scroll-speed="10" data-scroll-direction="vertical">
-            <img src="images/IMG_5485.png" alt="" data-scroll="" data-scroll-speed="6" data-scroll-direction="vertical">
-            <img src="images/IMG_7407.png" alt="" data-scroll="" data-scroll-speed="4" data-scroll-direction="vertical">
+            <img src="images/H5A0842.png" alt="" data-scroll="" data-scroll-speed="3" data-scroll-direction="vertical">
+            <img src="images/IMG_5485.png" alt="" data-scroll="" data-scroll-speed="3" data-scroll-direction="vertical">
+            <img src="images/IMG_7407.png" alt="" data-scroll="" data-scroll-speed="3" data-scroll-direction="vertical">
         </section>
 
         <footer>
-            <h1>Contact</h1>
+            <h1 class="contact">Contact</h1>
+            <a href= "mailto:fedirkooo@gmail.com">fedirkooo@gmail.com</a>
         </footer>
+        
     </div>
 
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="script/script.js"></script>
     
 </body>
